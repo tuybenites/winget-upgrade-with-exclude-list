@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winget-upgrade-with-exclude-list", "winget-upgrade-with-exclude-list\winget-upgrade-with-exclude-list.csproj", "{0B4A8376-6E65-4F98-B65D-DE28AF028D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B4A8376-6E65-4F98-B65D-DE28AF028D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4A8376-6E65-4F98-B65D-DE28AF028D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4A8376-6E65-4F98-B65D-DE28AF028D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4A8376-6E65-4F98-B65D-DE28AF028D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67FB63F4-6456-4C86-8484-7ABB3870F5E8}
+	EndGlobalSection
+EndGlobal

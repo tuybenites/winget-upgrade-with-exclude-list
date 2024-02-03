@@ -3,11 +3,11 @@
 	using System.Collections.ObjectModel;
 	using System.Management.Automation;
 
-	public class RunWinget
+	internal class RunWinget
 	{
 		private const string TitleWithoutSpaces = "NameIdVersionAvailableSource";
 
-		public static void RunPowershellScript(string script)
+		internal static void RunPowershellScript(string script)
 		{
 			using (var powershellInstance = PowerShell.Create())
 			{

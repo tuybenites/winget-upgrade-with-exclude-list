@@ -3,11 +3,11 @@ using System.Management.Automation;
 
 namespace Winget.Helpers
 {
-	internal class WingetRowsHelper
+	internal class RowsHelper
 	{
 		private const string TitleWithoutSpaces = "NameIdVersionAvailableSource";
 		private const string UpgradesAvailabeRow = "upgrades available.";
-		private const string RequireExplicitTargetingForUpgrade = " require explicit targeting for upgrade";
+		private const string RequireExplicitTargetingForUpgrade = "require explicit targeting for upgrade";
 		private const string HyphenLine = "-------------";
 
 		private static void CleanPrefix(Collection<PSObject> output)
